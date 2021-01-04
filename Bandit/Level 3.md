@@ -17,6 +17,6 @@ UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 bandit2@bandit:~$ 
 ```
 <details>
-<summary> Password</summary>
+<summary>Password</summary>
 UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 </details>
