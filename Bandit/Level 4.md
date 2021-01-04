@@ -24,6 +24,6 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 bandit3@bandit:~/inhere$ 
 ```
 <details>
-<summary> Password</summary>
+<summary>Password</summary>
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 </details>
