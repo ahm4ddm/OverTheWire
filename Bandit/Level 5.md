@@ -28,7 +28,7 @@ bandit4@bandit:~/inhere$ cat ./-file0*
                                                                        ��p��V�_���ׯ�mm������h!?��r�l$�?h�9('���!y�e�#�x�O��=��ly���~��A�f����-E�{���m�����ܗMkoReBOKuIDDepwhWk7jZC0RTdopnAYKh
 �T�?�i��j��îP�F�l�n��J����{��@�e�0$�in=��_b�5FA�P7sz��gN
 ```
-<sumamry>
-<details>Password</details>
-ܗMkoReBOKuIDDepwhWk7jZC0RTdopnAYKh
-</summary>
+<details>
+<summary>Password</summary>
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+</details>
