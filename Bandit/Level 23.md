@@ -31,20 +31,29 @@ echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
 
 cat /etc/bandit_pass/$myname > /tmp/$mytarget
 ```
-kalau kita menjalankan file tersebut akan digenerate letak password
-
+setelah itu kita cek siapa kita 
+```
+bandit22@bandit:/usr/bin$ whoami
+bandit22
+```
+setelah kita jalankan didapatkan
 ```
 bandit22@bandit:/usr/bin$ ./cronjob_bandit23.sh
 Copying passwordfile /etc/bandit_pass/bandit22 to /tmp/8169b67bd894ddbb4412f91573b38db3
 ```
-password disimpan pada ***tmp/816xxx****\
-kita cetak langsung maka didapatkan password
+yang mana kita adalah masuk sebagi ***bandit22***
+untuk itu kita salin sedikit code seperti
 ```
-bandit22@bandit:/usr/bin$ cat /tmp/8169b67bd894ddbb4412f91573b38db3
-Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+bandit22@bandit:/usr/bin$ bandit22@bandit:/usr/bin$ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+8ca319486bfbbc3663ea0fbe81326349
+```
+password terletak di direktori ***tmp/8caxxx***\
+```
+bandit22@bandit:/usr/bin$ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 ```
 <details>
 <summary>Password</summary>
-Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 </details>
 
