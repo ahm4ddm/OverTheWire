@@ -49,4 +49,17 @@ bandit16@bandit:/tmp/solusi17$ nano bandit.key
 bandit16@bandit:/tmp/solusi17$ chmod 600 bandit.key
 bandit16@bandit:/tmp/solusi17$ ssh -i bandit.key bandit17@localhost
 ```
-lalu berhasil masuk ke ***bandit17***
+lalu berhasil masuk ke ***bandit17***\
+setelah itu saya masuk disana ada file ***passwords.new passwords.old*** setelah dicoba tidak berhasil, lalu saya lihat pada level sebelumnya yaitu 
+
+>The password for the next level is stored in /etc/bandit_pass/bandit14
+
+saya langsung cetak pada folder tersebut.
+```
+bandit17@bandit:~$ cat /etc/bandit_pass/bandit17
+xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+```
+<details>
+<summary>Password</summary>
+xLYVMN9WE5zQ5vHacb0sZEVqbrp7nBTn
+</details>
