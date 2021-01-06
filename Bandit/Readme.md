@@ -23,4 +23,15 @@
 [Level 19 -> Level 20](<Solutions/Level 20.md>)\
 [Level 20 -> Level 21](<Solutions/Level 21.md>)\
 [Level 21 -> Level 22](<Solutions/Level 22.md>)\
-[Level 22 -> Level 23](<Solutions/Level 23.md>)
+[Level 22 -> Level 23](<Solutions/Level 23.md>)\
+[Level 23 -> Level 24](<Solutions/Level 24.md>)\
+[Level 24 -> Level 25](<Solutions/Level 25.md>)\
+[Level 25 -> Level 26](<Solutions/Level 26.md>)\
+[Level 26 -> Level 27](<Solutions/Level 27.md>)\
+[Level 27 -> Level 28](<Solutions/Level 28.md>)\
+[Level 28 -> Level 29](<Solutions/Level 29.md>)\
+[Level 29 -> Level 30](<Solutions/Level 30.md>)\
+[Level 30 -> Level 31](<Solutions/Level 31.md>)\
+[Level 31 -> Level 32](<Solutions/Level 32.md>)\
+[Level 32 -> Level 33](<Solutions/Level 33.md>)\
+[Level 33 -> Level 34](<Solutions/Level 34.md>)
