@@ -1,5 +1,5 @@
 # OverTheWire
-Membantu untuk belajar dan praktik tentang konsep keamanan
+Belajar dan praktik tentang konsep keamanan
 
 ## List
 ### [Bandit](Bandit)
