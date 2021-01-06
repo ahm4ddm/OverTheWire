@@ -7,7 +7,7 @@
 [Level 3 -> Level 4](<Solutions/Level 4.md>)\
 [Level 4 -> Level 5](<Solutions/Level 5.md>)\
 [Level 5 -> Level 6](<Solutions/Level 6.md>)\
-[Level 5 -> Level 7](<Solutions/Level 7.md>)\
+[Level 6 -> Level 7](<Solutions/Level 7.md>)\
 [Level 7 -> Level 8](<Solutions/Level 8.md>)\
 [Level 8 -> Level 9](<Solutions/Level 9.md>)\
 [Level 9 -> Level 10](<Solutions/Level 10.md>)\
